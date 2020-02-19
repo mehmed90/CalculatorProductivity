@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".AdministratorActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        app:srcCompat="@drawable/admin" />
+
+    <Button
+        android:id="@+id/activatedUserBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Активиране на потребител" />
+
+    <Button
+        android:id="@+id/addOperationAndCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Добавяне Операция" />
+
+    <Button
+        android:id="@+id/goToUserListBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Потребители" />
+
+    <Button
+        android:id="@+id/productivityAdminBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Продуктивност" />
+
+    <Button
+        android:id="@+id/exitAdminBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изход" />
+</LinearLayout>
